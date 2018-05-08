@@ -1,0 +1,96 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-container {padding:  115px 0;text-align:  center;}
+
+.section-container p {
+    color:  #7E7E7E;
+    font-size: 18px;
+}
+
+.p-taq {
+    padding-top: 30px;
+}
+
+.section-container h2 {font-size: 51px;color: #333;font-family: -webkit-pictograph;}
+
+button {
+    text-transform:  uppercase;
+    padding: 13px 23px;
+    background: #474CEA;
+    display:  inline-block;
+    border:  none;
+    border-radius: 19px;
+    margin-top: 20px;
+}
+
+button a {
+    color: #fff;
+}
+
+.section-img {
+    position:  relative;
+    margin-top: 5px;
+    margin:  0 auto;
+}
+
+.section-img img {
+    /* width: 666px; */
+}
+
+.section-img img:nth-child(2) {
+    position:  absolute;
+    z-index:  2;
+    top: 167px;
+    height: 414px;
+    right: -84px;
+    width: 305px;
+    box-shadow: 0 0 56px #716767;
+}
+
+.section-img img:nth-child(1) {
+    position:  relative;
+    z-index:  1;
+    height: 458px;
+    left: 70px;
+    width: 350px;
+    box-shadow: 0 0 56px #716767;
+}
+
+.section-img img:nth-child(3) {
+    bottom: -167px;
+    position:  absolute;
+    left: 6px;
+    z-index:  3;
+    width: 387px;
+    box-shadow: 0 0 56px #716767;
+}
